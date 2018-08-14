@@ -40,7 +40,7 @@ $extra-color: #efefef;
 			width: 8rem;
 		}
 	}
-	
+
 }
 .nav-link-web:hover{
 	background-color: $extra-color;
@@ -54,7 +54,7 @@ $extra-color: #efefef;
 	}
 	i{
 		font-size: 1.3rem;
-		
+
 	}
 }
 .principal-logo{
@@ -72,7 +72,7 @@ $extra-color: #efefef;
 
 .secondary-nav{
 	.secondary-nav-item{
-		
+
 		p{
 			border-left: 1px solid #c8c8c8;
 			border-right: 1px solid #e8e8e8;
@@ -80,6 +80,12 @@ $extra-color: #efefef;
 		}
 	}
 }
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
 @media (min-width: 500px){
 	html{
 		font-size: 60px;
@@ -102,10 +108,10 @@ $extra-color: #efefef;
  	.border-right-1024{
  		border-right: 1px solid #c8c8c8;
  	}
- 	
+
  }
 @media (max-width: 1200px){
-	
+
 }
 @media (min-width: 1200px){
 	html{
