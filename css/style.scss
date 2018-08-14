@@ -1,0 +1,119 @@
+html{
+	font-size: 100%;
+}
+
+
+body{
+	margin: 15px;
+	background-color: #444;
+	font-family: 'Roboto', sans-serif;
+}
+$accent-color: #c8c8c8;
+$extra-color: #efefef;
+
+.btn{
+	border-radius: 0 !important;
+}
+.skin{
+	background: white;
+}
+.c-d{
+	color: #444;
+}
+.c-w{
+	color: white;
+}
+.quote{
+	font-weight: 300;
+}
+.silver-bkg{
+	background-color: #f8f8f8;
+}
+.shadow-bot{
+	box-shadow: 0px 1px 4px #e2e2e2;
+}
+
+
+.navbar-brand{
+	figure{
+		img{
+			width: 8rem;
+		}
+	}
+	
+}
+.nav-link-web:hover{
+	background-color: $extra-color;
+}
+.nav-link{
+
+	figure{
+		img{
+			width: 5rem;
+		}
+	}
+	i{
+		font-size: 1.3rem;
+		
+	}
+}
+.principal-logo{
+	width: 15rem;
+}
+.second-logo{
+	width: 10rem;
+	padding: 1rem;
+	border: 1px solid $accent-color;
+}
+.second-logo:hover{
+	box-shadow: 0 0 4px $extra-color;
+}
+
+
+.secondary-nav{
+	.secondary-nav-item{
+		
+		p{
+			border-left: 1px solid #c8c8c8;
+			border-right: 1px solid #e8e8e8;
+			font-size: .8rem;
+		}
+	}
+}
+@media (min-width: 500px){
+	html{
+		font-size: 60px;
+	}
+}
+@media (min-width: 769px){
+	html{
+		font-size: 35px;
+	}
+}
+ @media (min-width: 992px){
+ 	html{
+		font-size: 16px;
+	}
+ }
+@media (max-width: 992px){
+
+}
+ @media (min-width: 1024px){
+ 	.border-right-1024{
+ 		border-right: 1px solid #c8c8c8;
+ 	}
+ 	
+ }
+@media (max-width: 1200px){
+	
+}
+@media (min-width: 1200px){
+	html{
+		font-size: 20px;
+	}
+}
+@media (min-width: 2500px){
+	html{
+		font-size: 20px;
+	}
+}
