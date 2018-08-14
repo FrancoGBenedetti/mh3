@@ -62,6 +62,14 @@ ul, ol {
   padding: 0;
   margin: 0; }
 
+footer {
+  font-weight: 300;
+  font-size: .7rem !important;
+  color: #efefef; }
+  footer a {
+    text-decoration: none !important;
+    color: #c8c8c8; }
+
 @media (min-width: 500px) {
   html {
     font-size: 60px; } }
